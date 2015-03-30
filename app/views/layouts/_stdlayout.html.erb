@@ -1,0 +1,32 @@
+<div class="row">
+
+<div class="col-md-2">
+	<img src="https://scontent-mia.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/529756_10150678079575946_1841448396_n.jpg?oh=c2a35c6852468bebd0dd007a68b6936b&oe=55B6D7F2" alt="..." class="img-circle" id="myImage">
+
+<ul class="nav nav-pills nav-stacked" id="myNav">
+  <li role="presentation" id="myPill"> <%=link_to "About Me", root_path %> </li>
+  <li role="presentation" id="myPill"> <%=link_to "Resume", resume_path %> </li>
+  <li role="presentation" id="myPill"> <%=link_to "Blog", blog_path %> </li>
+  <li role="presentation" id="lastPill"> <%=link_to "Contact Me", contact_path %> </li>
+
+  <p class="text-center" id="thankYou"> 
+  	<br>
+  	<small> <strong> Thank you for visiting my site! </strong> </small> </p>
+</ul>
+
+
+</div>
+
+	<div class="col-md-10"> 
+
+		<div class="jumbotron" id="firstJumbo">
+		<h1 style="text-align:center; color:white"> Hey. I'm Stephan Roche </h1>	
+		<h2 style="text-align:center; color:white"> Welcome to my own spot in the web! </h2>
+		</div>
+
+	<div class="jumbotron" id="secondJumbo">
+		<%= yield %>
+	</div>
+
+</div>
+</div>

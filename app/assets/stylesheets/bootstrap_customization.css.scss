@@ -1,0 +1,82 @@
+$nav-pills-border-radius: 0 ; 
+$nav-pills-active-link-hover-bg: #ecf0f1;
+$nav-pills-active-link-hover-color: #428bca;
+
+
+.underline_text {
+      border-bottom: solid 2px #000000;
+      display: inline;
+      padding-bottom: 3px;
+      text-decoration: none;
+}
+
+#lastPill {
+	margin-top:0px;
+}
+
+#thankYou {
+	border-top-style: solid;
+	border-width: thin;
+	border-color: #bdc3c7;
+	margin-top: 250px;
+	padding-bottom: 20px;
+	color: #95a5a6;
+}
+
+#myPill {
+	border-bottom-style: solid;
+	border-width: thin;
+	border-color: #bdc3c7;
+	margin-top:0px;
+}
+
+#myNav{
+  margin-right: -30px;
+  margin-top: 22px;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-width: thin;
+  border-color: #bdc3c7;
+  height: 500px;
+
+}
+
+#myImage {
+	margin-top: 47px;
+	height: 160px;
+	width: 160px;
+	margin-bottom: 20px;
+	margin-left:27px;
+}
+
+
+
+
+#firstJumbo {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://scontent-mia.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1470165_10151866664351464_1879348362_n.jpg?oh=794358db7d4c0151c31fd47931b35f7d&oe=5575DEDB");
+	background-size: 100%;
+	margin-bottom: 0;
+	height: 250px;
+
+}
+
+
+
+
+#secondJumbo {
+	background-color:#ecf0f1;
+	margin-bottom: 0;
+	height: 35.5em;
+	text-align: center;
+	padding-top: 15px; 
+}
+
+#myButton {
+	margin-left: 2%;
+	height: 50px;
+	width: 150px;
+	margin-top: 70px;
+}
+
+@import 'bootstrap';
+
